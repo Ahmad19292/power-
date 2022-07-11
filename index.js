@@ -8,7 +8,7 @@ client.on("ready", async () => {
   console.log(`${client.guilds.cache.size} Servers .`);
   console.log(`${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} Users .`);
  client.user.setStatus("invisible")
-  client.user.setActivity("s!help | Security Is Here", {
+  client.user.setActivity("s!help |POWER Security Is Here", {
     type: "PLAYING"
   });
 });
@@ -761,7 +761,7 @@ client.channels.cache.get("867612989166059550").send(`
 });
 ///////////////// left server
 client.on('guildDelete', guild => {
-  client.channels.cache.get("867613033726214173").send(`
+  client.channels.cache.get("981330003654500452").send(`
 ❎ **Lift Server**: ${client.guilds.cache.size}
 🔠 **Server Name**: ${guild.name}
 👑 **Server Owner**: ${guild.owner}
@@ -770,5 +770,5 @@ client.on('guildDelete', guild => {
 });
 
 
-client.login("تــــۆکین لێرە دانێ");
+client.login("OTk2MDg3NTgyMDM3MzgxMTQx.GykWMA.bEycR6Jau8DWs2A_MNOj8X4aPdRP_HG0DLjuDs");
 ////////////Coded By ANO
